@@ -2,6 +2,7 @@ from enum import Enum
 
 
 class Paths(Enum):
+    TEST_DIR = './test/'
     OUTPUT_DIR = './output/'
     INPUT_DIR = './input/'
     VIDEOS_INPUT = './input/videos/'
